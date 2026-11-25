@@ -1,0 +1,12 @@
+{
+  "name": "miyos-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static site for Miyo's restaurants (Columbia, SC).",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs"
+  }
+}

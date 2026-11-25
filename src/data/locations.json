@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "forest",
+    "path": "/location-forest/",
+    "name": "Forest Drive",
+    "heading": "Forest Drive",
+    "address": {
+      "street": "3250 Forest Drive, suite B",
+      "city": "Columbia",
+      "state": "SC",
+      "zip": "29204"
+    },
+    "hours": [
+      "Mon – Thurs: 11:30 am – 9:00 pm",
+      "Fri, Sat: 11:30 am – 9:30 pm, Sun: 11:30 am – 9:00 pm",
+      "Please verify the operation hours with the location"
+    ],
+    "phone": "803.743.9996",
+    "mapUrl": "http://maps.google.com/maps?q=3250+Forest+Drive+Columbia%2C+SC+29204"
+  },
+  {
+    "slug": "harbison",
+    "path": "/location-harbison/",
+    "name": "Harbison",
+    "heading": "Columbiana Drive",
+    "address": {
+      "street": "340 Columbiana Drive",
+      "city": "Columbia",
+      "state": "SC",
+      "zip": "29212"
+    },
+    "hours": [
+      "Sun, Mon – Thurs: 11:30 am – 9:00 pm",
+      "Fri, Sat: 11:30 am – 9:30 pm",
+      "Please verify the operation hours with the location"
+    ],
+    "phone": "803.764.0558",
+    "mapUrl": "http://maps.google.com/maps?q=1220+E-2+Bower+Parkway+Columbia%2C+SC+29212",
+    "orderOnline": "https://www.smorefood.com//dzrduxih/m-kitchen-columbia-29212/order-online?utm_source=gmb&utm_medium=website"
+  },
+  {
+    "slug": "lexington",
+    "path": "/location-lexington/",
+    "name": "Lexington",
+    "heading": "Lexington",
+    "address": {
+      "street": "5594 Sunset Blvd, suite D & E",
+      "city": "Lexington",
+      "state": "SC",
+      "zip": "29072"
+    },
+    "hours": [
+      "Sun, Mon – Thurs: 11:30 am – 10 pm",
+      "Fri, Sat: 11:30 am – 10:30 pm",
+      "Please verify the operation hours with the location"
+    ],
+    "phone": "803.957.9888",
+    "mapUrl": "http://maps.google.com/maps?q=5594+Sunset+Blvd+Lexington%2C+SC+29072"
+  },
+  {
+    "slug": "mgrille",
+    "path": "/location-mgrille/",
+    "name": "M Grille",
+    "heading": "M Grille"
+  },
+  {
+    "slug": "mkitchen",
+    "path": "/location-mkitchen/",
+    "name": "M Kitchen",
+    "heading": "M Kitchen"
+  },
+  {
+    "slug": "mvista",
+    "path": "/location-mvista/",
+    "name": "M Vista",
+    "heading": "M Vista",
+    "address": {
+      "street": "530 Lady Street, suite B",
+      "city": "Columbia",
+      "state": "SC",
+      "zip": "29201"
+    },
+    "hours": [
+      "Sun, Mon – Thurs: 11:30 am – 9:00 pm",
+      "Fri: 11:30 am – 9:30 pm",
+      "Sat: 11:30 am – 9:30 pm",
+      "Please verify the operation hours with the location"
+    ],
+    "phone": "803.851.4851",
+    "mapUrl": "http://maps.google.com/maps?q=701+Lady+Street+Columbia%2C+SC+29201",
+    "orderCatering": "https://www.ezcater.com/catering/pvt/m-vista-columbia-1?fcv=1"
+  }
+]

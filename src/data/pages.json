@@ -1,0 +1,444 @@
+{
+  "home": {
+    "title": "Miyo's",
+    "banner": "Welcome to the Official Website of Miyo's",
+    "slides": [
+      "/assets/photos/001.jpg",
+      "/assets/photos/002.jpg",
+      "/assets/photos/003.jpg",
+      "/assets/photos/004.jpg",
+      "/assets/photos/005.jpg",
+      "/assets/photos/006.jpg",
+      "/assets/photos/007.jpg",
+      "/assets/photos/008.jpg",
+      "/assets/photos/009.jpg",
+      "/assets/photos/010.jpg",
+      "/assets/photos/011.jpg",
+      "/assets/photos/012.jpg",
+      "/assets/photos/013.jpg",
+      "/assets/photos/014.jpg",
+      "/assets/photos/015.jpg",
+      "/assets/photos/016.jpg",
+      "/assets/photos/017.jpg",
+      "/assets/photos/018.jpg",
+      "/assets/photos/019.jpg",
+      "/assets/photos/020.jpg",
+      "/assets/photos/021.jpg",
+      "/assets/photos/022.jpg",
+      "/assets/photos/023.jpg",
+      "/assets/photos/024.jpg",
+      "/assets/photos/025.jpg",
+      "/assets/photos/026.jpg",
+      "/assets/photos/027.jpg",
+      "/assets/photos/028.jpg",
+      "/assets/photos/029.jpg"
+    ]
+  },
+  "our-story": {
+    "title": "Our Story",
+    "paragraphs": [
+      "Since 1996, Miyo&#8217;s and M family have strived to offer you the freshest and finest Asian cuisine.",
+      "Thanks to our great staff who have shown great enthusiasm and energy in creating extraordinary dining experiences for our guests.",
+      "Like American culture, M concept has evolved from regional Shanghai and Szechuan cuisine to a melting pot of northern and southern Chinese cuisine, Korean style BBQ, Vietnamese- and Thai-influenced dishes and Japanese sushi. Our company has combined gourmet, healthy and unique foods and recipes from all over the world. The shape of the &#8220;M&#8221; logo symbolizes a mountain and we strive to reach the apex in every aspect of our company every day.",
+      "It is our pride and mission to introduce our patrons to the wide variety of healthy choices in foods and beverages; to create a sophisticated dining atmosphere; and to help our guests enjoy great meals full of flavor, balance and nutrition.",
+      "This menu is a collection of our healthiest, tastiest, and most popular dishes from the original menu to ones inspired by our customers, staff and travels.",
+      "Enjoy!",
+      "Michelle Wang Cao &amp; Raymond Cao"
+    ]
+  },
+  "contact-us": {
+    "title": "Contact Us",
+    "paragraphs": [
+      "As a young, growing business in Columbia we have benefited tremendously from our customers&#39; criticism, suggestions, and comments.",
+      "At Miyo&#39;s customers are always right! Please feel free to let us know your honest opinion. If you ever have a bad experience, please make sure we hear about it &mdash; we will do everything we can to make sure you are satisfied and that your next visit is pleasant!",
+      "Please email Guest Relations, <a href=\"mailto:mw@miyos.com\">amy@miyos.com</a>, with any questions or comments."
+    ]
+  },
+  "catering": {
+    "title": "Catering",
+    "order": {
+      "label": "Order Catering",
+      "url": "https://www.ezcater.com/brand/pvt/miyos-restaurant"
+    },
+    "paragraphs": [
+      "In the past twenty-plus years, Miyo&#8217;s restaurants have catered many luncheons and dinners to medical offices, law firms, accounting firms, and events of all sizes.",
+      "With six locations in the Columbia area and a large variety of menu offerings, we also cater to private homes for birthdays, anniversaries, and wedding celebrations with set prices for parties from $10 to $200 per person with a minimum of $100 purchase. Delivery fees may apply.",
+      "For Lexington location catering,<br> please call Michelle W Cao at 803-546-6923 or Rui Cao at 803-446-6217",
+      "For M Vista location catering,<br> please call Michelle W Cao at 803-546-6923 or Rui Cao at 803-446-6217",
+      "For Forest Drive location catering,<br> please call Michelle W Cao at 803-546-6923 or Rui Cao at 803-446-6217",
+      "For M Kitchen location catering,<br> please call Michelle W Cao at 803-546-6923 or Rui Cao at 803-446-6217"
+    ]
+  },
+  "careers": {
+    "title": "Careers",
+    "paragraphs": [
+      "Serving is our pleasure! We are looking forward to having more talented and dedicated individuals join our company to help deliver the great sense of <em>Pleasure and Longevity</em>.",
+      "Think you&#8217;d be a good member of our team? Please send applications directly to mw@miyos.com! <a href=\"/application/\">Apply now</a>."
+    ],
+    "video": {
+      "src": "/assets/video/careers.m4v",
+      "poster": "/assets/img/careers-splash.png",
+      "alt": "Words from the Workers"
+    }
+  },
+  "application": {
+    "title": "Application",
+    "fields": [
+      {
+        "id": "name",
+        "name": "name",
+        "label": "Name",
+        "control": "input",
+        "required": true,
+        "type": "text",
+        "maxlength": 400
+      },
+      {
+        "id": "email",
+        "name": "email",
+        "label": "Email",
+        "control": "input",
+        "required": true,
+        "type": "email",
+        "maxlength": 400
+      },
+      {
+        "id": "dob",
+        "name": "dob",
+        "label": "Date of Birth",
+        "control": "input",
+        "required": true,
+        "type": "text",
+        "maxlength": 400
+      },
+      {
+        "id": "street",
+        "name": "street",
+        "label": "Street",
+        "control": "input",
+        "required": true,
+        "type": "text",
+        "maxlength": 400
+      },
+      {
+        "id": "city",
+        "name": "city",
+        "label": "City",
+        "control": "input",
+        "required": true,
+        "type": "text",
+        "maxlength": 400
+      },
+      {
+        "id": "state",
+        "name": "state",
+        "label": "State",
+        "control": "select",
+        "required": true,
+        "options": [
+          {
+            "value": "",
+            "label": "—Please choose an option—"
+          },
+          {
+            "value": "Alabama",
+            "label": "Alabama"
+          },
+          {
+            "value": "Alaska",
+            "label": "Alaska"
+          },
+          {
+            "value": "American Samoa",
+            "label": "American Samoa"
+          },
+          {
+            "value": "Arizona",
+            "label": "Arizona"
+          },
+          {
+            "value": "Arkansas",
+            "label": "Arkansas"
+          },
+          {
+            "value": "California",
+            "label": "California"
+          },
+          {
+            "value": "Colorado",
+            "label": "Colorado"
+          },
+          {
+            "value": "Connecticut",
+            "label": "Connecticut"
+          },
+          {
+            "value": "Delaware",
+            "label": "Delaware"
+          },
+          {
+            "value": "District of Columbia",
+            "label": "District of Columbia"
+          },
+          {
+            "value": "Florida",
+            "label": "Florida"
+          },
+          {
+            "value": "Georgia",
+            "label": "Georgia"
+          },
+          {
+            "value": "Guam",
+            "label": "Guam"
+          },
+          {
+            "value": "Hawaii",
+            "label": "Hawaii"
+          },
+          {
+            "value": "Idaho",
+            "label": "Idaho"
+          },
+          {
+            "value": "Illinois",
+            "label": "Illinois"
+          },
+          {
+            "value": "Indiana",
+            "label": "Indiana"
+          },
+          {
+            "value": "Iowa",
+            "label": "Iowa"
+          },
+          {
+            "value": "Kansas",
+            "label": "Kansas"
+          },
+          {
+            "value": "Kentucky",
+            "label": "Kentucky"
+          },
+          {
+            "value": "Louisiana",
+            "label": "Louisiana"
+          },
+          {
+            "value": "Maine",
+            "label": "Maine"
+          },
+          {
+            "value": "Maryland",
+            "label": "Maryland"
+          },
+          {
+            "value": "Massachusetts",
+            "label": "Massachusetts"
+          },
+          {
+            "value": "Michigan",
+            "label": "Michigan"
+          },
+          {
+            "value": "Minnesota",
+            "label": "Minnesota"
+          },
+          {
+            "value": "Mississippi",
+            "label": "Mississippi"
+          },
+          {
+            "value": "Missouri",
+            "label": "Missouri"
+          },
+          {
+            "value": "Montana",
+            "label": "Montana"
+          },
+          {
+            "value": "Nebraska",
+            "label": "Nebraska"
+          },
+          {
+            "value": "Nevada",
+            "label": "Nevada"
+          },
+          {
+            "value": "New Hampshire",
+            "label": "New Hampshire"
+          },
+          {
+            "value": "New Jersey",
+            "label": "New Jersey"
+          },
+          {
+            "value": "New Mexico",
+            "label": "New Mexico"
+          },
+          {
+            "value": "New York",
+            "label": "New York"
+          },
+          {
+            "value": "North Carolina",
+            "label": "North Carolina"
+          },
+          {
+            "value": "North Dakota",
+            "label": "North Dakota"
+          },
+          {
+            "value": "Northern Marianas Islands",
+            "label": "Northern Marianas Islands"
+          },
+          {
+            "value": "Ohio",
+            "label": "Ohio"
+          },
+          {
+            "value": "Oklahoma",
+            "label": "Oklahoma"
+          },
+          {
+            "value": "Oregon",
+            "label": "Oregon"
+          },
+          {
+            "value": "Pennsylvania",
+            "label": "Pennsylvania"
+          },
+          {
+            "value": "Puerto Rico",
+            "label": "Puerto Rico"
+          },
+          {
+            "value": "Rhode Island",
+            "label": "Rhode Island"
+          },
+          {
+            "value": "South Carolina",
+            "label": "South Carolina"
+          },
+          {
+            "value": "South Dakota",
+            "label": "South Dakota"
+          },
+          {
+            "value": "Tennessee",
+            "label": "Tennessee"
+          },
+          {
+            "value": "Texas",
+            "label": "Texas"
+          },
+          {
+            "value": "Utah",
+            "label": "Utah"
+          },
+          {
+            "value": "Vermont",
+            "label": "Vermont"
+          },
+          {
+            "value": "Virginia",
+            "label": "Virginia"
+          },
+          {
+            "value": "Virgin Islands",
+            "label": "Virgin Islands"
+          },
+          {
+            "value": "Washington",
+            "label": "Washington"
+          },
+          {
+            "value": "West Virginia",
+            "label": "West Virginia"
+          },
+          {
+            "value": "Wisconsin",
+            "label": "Wisconsin"
+          },
+          {
+            "value": "Wyoming",
+            "label": "Wyoming"
+          }
+        ]
+      },
+      {
+        "id": "zip",
+        "name": "zip",
+        "label": "Zip",
+        "control": "input",
+        "required": true,
+        "type": "text",
+        "maxlength": 400
+      },
+      {
+        "id": "phone",
+        "name": "phone",
+        "label": "Phone",
+        "control": "input",
+        "required": true,
+        "type": "text",
+        "maxlength": 400
+      },
+      {
+        "id": "position",
+        "name": "position",
+        "label": "Position Applied For",
+        "control": "input",
+        "required": true,
+        "type": "text",
+        "maxlength": 400
+      },
+      {
+        "id": "income",
+        "name": "income",
+        "label": "Desired Hourly Income",
+        "control": "input",
+        "required": true,
+        "type": "text",
+        "maxlength": 400
+      },
+      {
+        "id": "time",
+        "name": "time",
+        "label": "Available Time to Work",
+        "control": "input",
+        "required": true,
+        "type": "text",
+        "maxlength": 400
+      },
+      {
+        "id": "previous_employment",
+        "name": "previous_employment",
+        "label": "Previous Employment in the last 3 years",
+        "control": "textarea",
+        "required": true,
+        "maxlength": 2000,
+        "rows": 10
+      },
+      {
+        "id": "about_you",
+        "name": "about_you",
+        "label": "Please tell us about yourself and what makes you interested in working in a restaurant.",
+        "control": "textarea",
+        "required": true,
+        "maxlength": 2000,
+        "rows": 10
+      },
+      {
+        "id": "looking_for",
+        "name": "looking_for",
+        "label": "What are you looking for in a new job and what will motivate you to perform at your best?",
+        "control": "textarea",
+        "required": true,
+        "maxlength": 2000,
+        "rows": 10
+      }
+    ],
+    "submitLabel": "Submit"
+  }
+}
