@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Miyo’s — Layout B, top bar and split hero</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400..700&family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&display=swap">
+<style>
+body{margin:0}
+a{color:inherit;text-decoration:none}
+</style>
+</helmet>
+<div id="top" style="display:flex;flex-direction:column;min-height:2900px;background:#EEEEEC;color:#1F1F1D;font-family:'Hanken Grotesk','Helvetica Neue',Arial,sans-serif">
+
+  <header style="background:#990000;color:#FFFFFF">
+    <div style="max-width:1280px;margin:0 auto;padding:12px 32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 32px">
+      <a href="#top" style="display:block;flex:0 1 264px;line-height:0">
+        <img src="/_blob/8db4063a45bc4bb93f1008ee4baa7636" alt="Miyo’s &amp; M" width="516" height="140" style="display:block;width:100%;height:auto">
+      </a>
+      <nav aria-label="Primary" style="display:flex;flex-wrap:wrap;align-items:center;gap:0 4px">
+        <a href="#menu" style="padding:14px 12px;font-size:12.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">Menu</a>
+        <a href="#find" style="padding:14px 12px;font-size:12.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">Locations</a>
+        <a href="#catering" style="padding:14px 12px;font-size:12.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">Catering</a>
+        <a href="#careers" style="padding:14px 12px;font-size:12.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">Careers</a>
+        <a href="#story" style="padding:14px 12px;font-size:12.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">Our Story</a>
+        <a href="#contact" style="padding:14px 12px;font-size:12.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">Contact Us</a>
+        <a href="#order" style="display:inline-flex;align-items:center;min-height:44px;box-sizing:border-box;margin-left:12px;padding:0 22px;border-radius:4px;background:#FFFFFF;color:#990000;font-size:14px;font-weight:700">Order online</a>
+      </nav>
+    </div>
+  </header>
+
+  <section style="display:flex;flex-wrap:wrap;background:#990000;color:#FFFFFF">
+    <div style="flex:1 1 520px;min-width:0;box-sizing:border-box;padding:56px 56px 72px 32px;display:flex;flex-direction:column;justify-content:center">
+      <p style="margin:0 0 20px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#F0B9B9">Columbia, South Carolina · Since 1996</p>
+      <h1 style="margin:0;max-width:13ch;font-family:'Newsreader',Georgia,serif;font-weight:300;font-size:clamp(44px,5.2vw,72px);line-height:1.02;letter-spacing:-.01em;text-wrap:balance">The freshest and finest Asian cuisine.</h1>
+      <p style="margin:22px 0 0;max-width:40ch;font-size:19px;line-height:1.55;color:#F4D9D9">Shanghai and Szechuan roots, with Chinese, Korean, Vietnamese, Thai and Japanese flavors on one menu.</p>
+      <div style="margin-top:32px;display:flex;flex-wrap:wrap;align-items:center;gap:12px 16px">
+        <a href="#menu" style="display:inline-flex;align-items:center;min-height:52px;box-sizing:border-box;padding:0 28px;border-radius:4px;background:#FFFFFF;color:#990000;font-size:15px;font-weight:700">See the menu</a>
+        <a href="#find" style="display:inline-flex;align-items:center;min-height:52px;box-sizing:border-box;padding:0 28px;border-radius:4px;border:1.5px solid #F0B9B9;font-size:15px;font-weight:700">Find a location</a>
+      </div>
+    </div>
+    <div style="flex:1 1 480px;position:relative;min-height:440px">
+      <img src="/_blob/49f104fbe0e967d54b34baed257702ab" alt="Red lanterns glowing over the bar at Miyo’s" style="position:absolute;top:0;left:0;display:block;width:100%;height:100%;object-fit:cover">
+    </div>
+  </section>
+
+  <section id="menu" style="max-width:1280px;width:100%;box-sizing:border-box;margin:0 auto;padding:80px 32px 0">
+    <div style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px">
+      <h2 style="margin:0;font-family:'Newsreader',Georgia,serif;font-weight:400;font-size:40px;line-height:1.1">Explore the menu</h2>
+      <a href="#menu" style="display:inline-flex;align-items:center;min-height:44px;font-size:15px;font-weight:700;color:#4B6630">Full menu →</a>
+    </div>
+
+    <div style="margin-top:24px;display:flex;flex-wrap:wrap;gap:16px">
+      <a href="#menu" style="flex:2 1 440px;position:relative;display:block;min-height:456px;overflow:hidden;border-radius:6px;background:#DCDCD8">
+        <img src="/_blob/3e31c11260a29a1bc28273438625b20c" alt="" style="position:absolute;top:0;left:0;display:block;width:100%;height:100%;object-fit:cover">
+        <span style="position:absolute;left:12px;bottom:12px;padding:8px 14px;border-radius:4px;background:#FFFFFF;font-size:15px;font-weight:600">Special Rolls</span>
+      </a>
+      <div style="flex:1 1 220px;display:flex;flex-direction:column;gap:16px">
+        <a href="#menu" style="flex:1 1 220px;position:relative;display:block;min-height:220px;overflow:hidden;border-radius:6px;background:#DCDCD8">
+          <img src="/_blob/ee363c7a421857618d8e148607748ed1" alt="" style="position:absolute;top:0;left:0;display:block;width:100%;height:100%;object-fit:cover">
+          <span style="position:absolute;left:12px;bottom:12px;padding:8px 14px;border-radius:4px;background:#FFFFFF;font-size:15px;font-weight:600">Samplers &amp; Platters</span>
+        </a>
+        <a href="#menu" style="flex:1 1 220px;position:relative;display:block;min-height:220px;overflow:hidden;border-radius:6px;background:#DCDCD8">
+          <img src="/_blob/04eebc5557a3587442cd6279ca0fa9e9" alt="" style="position:absolute;top:0;left:0;display:block;width:100%;height:100%;object-fit:cover">
+          <span style="position:absolute;left:12px;bottom:12px;padding:8px 14px;border-radius:4px;background:#FFFFFF;font-size:15px;font-weight:600">Appetizers</span>
+        </a>
+      </div>
+    </div>
+
+    <div style="margin-top:16px;display:flex;flex-wrap:wrap;gap:16px">
+      <a href="#menu" style="flex:1 1 220px;position:relative;display:block;min-height:220px;overflow:hidden;border-radius:6px;background:#DCDCD8">
+        <img src="/_blob/b49f413c5e77bee7165c097d56292c98" alt="" style="position:absolute;top:0;left:0;display:block;width:100%;height:100%;object-fit:cover">
+        <span style="position:absolute;left:12px;bottom:12px;padding:8px 14px;border-radius:4px;background:#FFFFFF;font-size:15px;font-weight:600">Desserts</span>
+      </a>
+      <a href="#menu" style="flex:1 1 220px;position:relative;display:block;min-height:220px;overflow:hidden;border-radius:6px;background:#DCDCD8">
+        <img src="/_blob/7491056578c407be3d7e0d3dde03138a" alt="" style="position:absolute;top:0;left:0;display:block;width:100%;height:100%;object-fit:cover">
+        <span style="position:absolute;left:12px;bottom:12px;padding:8px 14px;border-radius:4px;background:#FFFFFF;font-size:15px;font-weight:600">Beverages</span>
+      </a>
+      <a href="#menu" style="flex:1 1 220px;display:flex;flex-direction:column;justify-content:flex-end;gap:8px;box-sizing:border-box;min-height:220px;padding:24px;border-radius:6px;background:#990000;color:#FFFFFF">
+        <span style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.1">See the full menu</span>
+        <span aria-hidden="true" style="font-size:22px">→</span>
+      </a>
+      <a href="#catering" style="flex:1 1 220px;display:flex;flex-direction:column;justify-content:flex-end;gap:8px;box-sizing:border-box;min-height:220px;padding:24px;border-radius:6px;background:#4B6630;color:#FFFFFF">
+        <span style="font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.1">Catering</span>
+        <span style="font-size:15px;line-height:1.4">Parties from $10 to $200 per person</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="find" style="max-width:1280px;width:100%;box-sizing:border-box;margin:0 auto;padding:96px 32px 0">
+    <h2 style="margin:0;font-family:'Newsreader',Georgia,serif;font-weight:400;font-size:40px;line-height:1.1">Find a Miyo’s</h2>
+    <p style="margin:8px 0 0;font-size:16px;line-height:1.5;color:#5E5E5A">Hours vary by location, so check before you go.</p>
+    <div style="margin-top:24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr));gap:20px">
+      <sc-for list="{{locations}}" as="loc" hint-placeholder-count="6">
+        <a href="#" style="display:block;box-sizing:border-box;padding:24px 28px 28px;border-top:4px solid #990000;border-radius:0 0 6px 6px;background:#FFFFFF;box-shadow:0 1px 2px rgba(31,31,29,.10)">
+          <span style="display:block;font-family:'Newsreader',Georgia,serif;font-size:30px;line-height:1.1">{{loc.name}}</span>
+          <span style="display:block;margin-top:12px;font-size:15px;line-height:1.5;color:#5E5E5A">{{loc.address}}</span>
+          <span style="display:block;font-size:15px;font-weight:700">{{loc.phone}}</span>
+          <span style="display:block;margin-top:10px;font-size:14px;line-height:1.5;color:#5E5E5A">{{loc.hours}}</span>
+          <span style="display:inline-block;margin-top:14px;padding:10px 0;font-size:15px;font-weight:700;color:#4B6630;border-bottom:2px solid #4B6630">{{loc.action}} →</span>
+        </a>
+      </sc-for>
+    </div>
+  </section>
+
+  <section id="story" style="margin-top:96px;display:flex;flex-wrap:wrap">
+    <div style="flex:1 1 420px;position:relative;min-height:420px">
+      <img src="/_blob/deb8fb480fe3b235483b4b58f312d550" alt="Inside a Miyo’s dining room" style="position:absolute;top:0;left:0;display:block;width:100%;height:100%;object-fit:cover">
+    </div>
+    <div style="flex:1 1 420px;min-width:0;box-sizing:border-box;padding:56px;display:flex;flex-direction:column;justify-content:center;background:#4B6630;color:#FFFFFF">
+      <svg width="140" height="66" viewBox="0 0 160 76" aria-hidden="true">
+        <polyline points="2,72 30,34 48,50 82,6 110,52 128,38 158,72" fill="none" stroke="#FFFFFF" style="stroke-width:3.5;stroke-linejoin:round;stroke-linecap:round"></polyline>
+      </svg>
+      <p style="margin:24px 0 0;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#E3EBDB">Our story</p>
+      <h2 style="margin:10px 0 0;max-width:16ch;font-family:'Newsreader',Georgia,serif;font-weight:300;font-size:clamp(34px,3.8vw,50px);line-height:1.08">Since 1996, climbing toward the apex.</h2>
+      <p style="margin:16px 0 0;max-width:46ch;font-size:17px;line-height:1.6">The M in our logo is a mountain, and every day we try to reach the top of it, in flavor, balance and nutrition.</p>
+      <a href="#story" style="align-self:flex-start;display:inline-flex;align-items:center;min-height:44px;margin-top:8px;font-size:16px;font-weight:700;border-bottom:2px solid #FFFFFF">Read our story →</a>
+    </div>
+  </section>
+
+  <footer style="flex:1;background:#990000;color:#F4D9D9">
+    <div style="max-width:1280px;margin:0 auto;padding:40px 32px 48px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px 48px">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:16px 32px">
+        <img src="/_blob/8db4063a45bc4bb93f1008ee4baa7636" alt="Miyo’s &amp; M" width="516" height="140" style="display:block;width:260px;height:auto">
+        <span style="font-size:14px;line-height:1.6">Asian cuisine since 1996<br>Columbia, South Carolina</span>
+      </div>
+      <nav aria-label="Footer" style="display:flex;flex-wrap:wrap;gap:0 8px">
+        <a href="#menu" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Menu</a>
+        <a href="#catering" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Catering</a>
+        <a href="#careers" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Careers</a>
+        <a href="#story" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Our Story</a>
+        <a href="#contact" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Contact Us</a>
+      </nav>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":2900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      locations: [
+        { name: "Forest Drive", address: "3250 Forest Drive, suite B, Columbia, SC 29204", phone: "803.743.9996", hours: "Sun–Thu 11:30 am–9 pm · Fri–Sat until 9:30", action: "Details" },
+        { name: "Harbison", address: "340 Columbiana Drive, Columbia, SC 29212", phone: "803.764.0558", hours: "Sun–Thu 11:30 am–9 pm · Fri–Sat until 9:30", action: "Order online" },
+        { name: "Lexington", address: "5594 Sunset Blvd, suite D & E, Lexington, SC 29072", phone: "803.957.9888", hours: "Sun–Thu 11:30 am–10 pm · Fri–Sat until 10:30", action: "Details" },
+        { name: "M Grille", address: "[address]", phone: "[phone]", hours: "[hours]", action: "Details" },
+        { name: "M Kitchen", address: "[address]", phone: "[phone]", hours: "[hours]", action: "Details" },
+        { name: "M Vista", address: "530 Lady Street, suite B, Columbia, SC 29201", phone: "803.851.4851", hours: "Sun–Thu 11:30 am–9 pm · Fri–Sat until 9:30", action: "Details" }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

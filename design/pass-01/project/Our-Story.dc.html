@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Miyo’s — Our Story</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400..700&family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&display=swap">
+<style>
+body{margin:0}
+a{color:inherit;text-decoration:none}
+</style>
+</helmet>
+<div id="top" style="display:flex;flex-direction:column;min-height:1500px;background:#990000;color:#2B2523;font-family:'Hanken Grotesk','Helvetica Neue',Arial,sans-serif">
+
+  <header style="background:#990000">
+    <div style="max-width:1120px;margin:0 auto;padding:16px 24px 8px;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:8px 32px">
+      <a href="#top" style="display:block;flex:0 1 372px;line-height:0">
+        <img src="/_blob/8db4063a45bc4bb93f1008ee4baa7636" alt="Miyo’s &amp; M" width="516" height="140" style="display:block;width:100%;height:auto">
+      </a>
+      <nav aria-label="Primary" style="display:flex;flex-wrap:wrap;gap:0 4px;padding-bottom:10px">
+        <a href="#home" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Home</a>
+        <a href="#menu" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Menu</a>
+        <a href="#catering" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Catering</a>
+        <a href="#careers" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Careers</a>
+        <a href="#top" aria-current="page" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF;box-shadow:inset 0 -2px 0 #F0B9B9">Our Story</a>
+        <a href="#contact" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main style="background:#F3F1EC">
+    <div style="max-width:1120px;margin:0 auto;padding:44px 24px 88px;display:flex;flex-wrap:wrap;align-items:flex-start;gap:40px 48px">
+
+      <aside aria-label="Locations" style="flex:0 0 216px">
+        <h2 style="margin:0;font-family:'Newsreader',Georgia,serif;font-weight:400;font-size:28px;line-height:1.1">Locations</h2>
+        <span style="display:block;width:32px;height:3px;margin:12px 0 14px;background:#990000"></span>
+        <ul style="list-style:none;margin:0;padding:0;border-bottom:1px solid #DDD8CF">
+          <sc-for list="{{locations}}" as="loc" hint-placeholder-count="6">
+            <li>
+              <a href="#" style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 0;border-top:1px solid #DDD8CF">
+                <span>
+                  <span style="display:block;font-size:17px;font-weight:600;line-height:1.2;color:#4B6630">{{loc.name}}</span>
+                  <span style="display:block;margin-top:2px;font-size:13.5px;color:#6B635C">{{loc.sub}}</span>
+                </span>
+                <span aria-hidden="true" style="font-size:18px;color:#4B6630">›</span>
+              </a>
+            </li>
+          </sc-for>
+        </ul>
+      </aside>
+
+      <article style="flex:1 1 560px;min-width:0">
+        <h1 style="margin:0;font-family:'Newsreader',Georgia,serif;font-weight:400;font-size:clamp(40px,4.4vw,56px);line-height:1.05">Our Story</h1>
+        <p style="margin:16px 0 0;max-width:30ch;font-family:'Newsreader',Georgia,serif;font-weight:300;font-size:clamp(24px,2.6vw,32px);line-height:1.25;text-wrap:balance">Since 1996, we have worked to bring you the freshest and finest Asian cuisine.</p>
+
+        <div style="margin-top:40px;display:flex;flex-wrap:wrap;align-items:flex-start;gap:40px">
+          <div style="flex:1 1 400px;min-width:0;max-width:64ch">
+            <p style="margin:0;font-size:17px;line-height:1.7">Our staff bring enthusiasm and energy to every table, and it shows in the dining experiences our guests remember.</p>
+            <p style="margin:20px 0 0;font-size:17px;line-height:1.7">What began as regional Shanghai and Szechuan cooking has grown into a melting pot: northern and southern Chinese dishes, Korean-style BBQ, Vietnamese and Thai influences, and Japanese sushi.</p>
+
+            <figure style="margin:36px 0;padding:28px 0;border-top:1px solid #DDD8CF;border-bottom:1px solid #DDD8CF">
+              <svg width="132" height="64" viewBox="0 0 160 76" aria-hidden="true" style="display:block">
+                <polyline points="2,72 30,34 48,50 82,6 110,52 128,38 158,72" fill="none" stroke="#990000" style="stroke-width:3.5;stroke-linejoin:round;stroke-linecap:round"></polyline>
+              </svg>
+              <blockquote style="margin:16px 0 0;font-family:'Newsreader',Georgia,serif;font-style:italic;font-weight:400;font-size:30px;line-height:1.2;color:#990000">The shape of our “M” is a mountain. Every day, we strive to reach the apex.</blockquote>
+            </figure>
+
+            <p style="margin:0;font-size:17px;line-height:1.7">Our mission is simple: healthy choices in food and drink, a sophisticated dining atmosphere, and meals full of flavor, balance and nutrition.</p>
+            <p style="margin:20px 0 0;font-size:17px;line-height:1.7">The menu gathers our healthiest, tastiest and most popular dishes, from the original menu to ones inspired by customers, staff and travels.</p>
+
+            <p style="margin:36px 0 0;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:34px;line-height:1.1">Enjoy!</p>
+            <p style="margin:8px 0 0;font-size:15px;font-weight:600;color:#6B635C">Michelle Wang Cao &amp; Raymond Cao</p>
+          </div>
+
+          <div style="flex:0 1 300px;min-width:0;display:flex;flex-direction:column;gap:16px">
+            <img src="/_blob/deb8fb480fe3b235483b4b58f312d550" alt="Inside a Miyo’s dining room" style="display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:6px;box-shadow:0 1px 2px rgba(43,37,35,.08),0 8px 24px rgba(43,37,35,.10)">
+            <img src="/_blob/49f104fbe0e967d54b34baed257702ab" alt="Red lanterns over a Miyo’s bar" style="display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:6px;box-shadow:0 1px 2px rgba(43,37,35,.08),0 8px 24px rgba(43,37,35,.10)">
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer style="flex:1;background:#990000;color:#F4D9D9">
+    <div style="max-width:1120px;margin:0 auto;padding:40px 24px 48px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px 48px">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:16px 32px">
+        <img src="/_blob/8db4063a45bc4bb93f1008ee4baa7636" alt="Miyo’s &amp; M" width="516" height="140" style="display:block;width:260px;height:auto">
+        <span style="font-size:14px;line-height:1.6">Asian cuisine since 1996<br>Columbia, South Carolina</span>
+      </div>
+      <nav aria-label="Footer" style="display:flex;flex-wrap:wrap;gap:0 8px">
+        <a href="#menu" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Menu</a>
+        <a href="#catering" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Catering</a>
+        <a href="#careers" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Careers</a>
+        <a href="#top" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Our Story</a>
+        <a href="#contact" style="padding:12px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Contact Us</a>
+      </nav>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      locations: [
+        { name: "Forest Drive", sub: "803.743.9996" },
+        { name: "Harbison", sub: "803.764.0558" },
+        { name: "Lexington", sub: "803.957.9888" },
+        { name: "M Grille", sub: "[phone]" },
+        { name: "M Kitchen", sub: "[phone]" },
+        { name: "M Vista", sub: "803.851.4851" }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "v": 3,
+  "createdOnFiles": { "v": 1, "at": "2026-11-22T12:00:00Z" },
+  "title": "Miyo’s design pass",
+  "launch": { "view": "canvas" },
+  "pages": [],
+  "boards": {
+    "Layout-A-Rail.dc.html": { "x": 0, "y": 0, "w": 1280, "h": 2700, "title": "A — Left rail", "expand": "fill" },
+    "Layout-B-Topbar.dc.html": { "x": 1360, "y": 0, "w": 1280, "h": 2900, "title": "B — Top bar + split hero", "expand": "fill" },
+    "Main.dc.html": { "x": 0, "y": 3500, "w": 1280, "h": 1400, "title": "Previous — Home", "expand": "fill" },
+    "Home-Phone.dc.html": { "x": 1360, "y": 3500, "w": 390, "h": 1800, "title": "Previous — Home, phone" },
+    "Our-Story.dc.html": { "x": 1830, "y": 3500, "w": 1280, "h": 1500, "title": "Previous — Our Story", "expand": "fill" }
+  },
+  "order": ["Layout-A-Rail.dc.html", "Layout-B-Topbar.dc.html", "Main.dc.html", "Home-Phone.dc.html", "Our-Story.dc.html"],
+  "notes": {
+    "t1": { "x": 0, "y": -300, "text": "Miyo’s — two modern layouts, same logo and colors", "kind": "title1", "maxW": 2640 },
+    "t2": { "x": 0, "y": 3200, "text": "Previous round — current layout, refreshed", "kind": "title1", "maxW": 3110 }
+  },
+  "designSystems": []
+}
